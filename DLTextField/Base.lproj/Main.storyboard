@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DLTextField" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZKr-Mb-0wC" customClass="DLTextField" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="60" width="150" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Text1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="XlF-TT-lV3"/>
+                                    <constraint firstAttribute="height" constant="30" id="mOH-8x-1ga"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textEditDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="XOc-qx-gSb"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z0Q-2a-hmY" customClass="DLTextField" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="110" width="150" height="30"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Text2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7JV-OY-zw8"/>
+                                    <constraint firstAttribute="width" constant="150" id="UMh-Kj-5hd"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="textEditDidEnd:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Vju-8t-vVD"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2d-DI-zMB" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="174" y="115" width="185" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fkX-zW-Hi0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shX-ar-WQl" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="177" width="343" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Dj4-tr-hWB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZX-oZ-NjQ" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="213" width="343" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label4"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="M1x-Dk-dLU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STe-vL-UWI" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="249" width="343" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="mNa-sI-uK9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KT-h3-tjD" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="16" y="287" width="343" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label6"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gma-lt-kDd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efY-oJ-4k9" customClass="DLLabel" customModule="DLTextField" customModuleProvider="target">
+                                <rect key="frame" x="174" y="66" width="185" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="Label1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gXr-Ne-Uoi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="typeOfFormattAdapter">
+                                        <integer key="value" value="0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="STe-vL-UWI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="04H-9q-E2b"/>
+                            <constraint firstItem="BZX-oZ-NjQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0BK-YE-LcP"/>
+                            <constraint firstItem="efY-oJ-4k9" firstAttribute="leading" secondItem="ZKr-Mb-0wC" secondAttribute="trailing" constant="8" id="AH8-Dl-61r"/>
+                            <constraint firstItem="BZX-oZ-NjQ" firstAttribute="top" secondItem="shX-ar-WQl" secondAttribute="bottom" constant="15" id="HzS-gT-sgy"/>
+                            <constraint firstItem="ZKr-Mb-0wC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Nbr-Mq-8th"/>
+                            <constraint firstItem="shX-ar-WQl" firstAttribute="top" secondItem="z0Q-2a-hmY" secondAttribute="bottom" constant="37" id="Nlc-0z-98O"/>
+                            <constraint firstItem="7KT-h3-tjD" firstAttribute="top" secondItem="STe-vL-UWI" secondAttribute="bottom" constant="17" id="QbQ-Gt-RLL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7KT-h3-tjD" secondAttribute="trailing" constant="16" id="Swh-6T-FeU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C2d-DI-zMB" secondAttribute="trailing" constant="16" id="Txz-X7-im2"/>
+                            <constraint firstItem="C2d-DI-zMB" firstAttribute="top" secondItem="efY-oJ-4k9" secondAttribute="bottom" constant="28" id="VjE-2Z-mMk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BZX-oZ-NjQ" secondAttribute="trailing" constant="16" id="XOx-8u-jVr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="efY-oJ-4k9" secondAttribute="trailing" constant="16" id="bCy-JZ-JfI"/>
+                            <constraint firstItem="STe-vL-UWI" firstAttribute="top" secondItem="BZX-oZ-NjQ" secondAttribute="bottom" constant="15" id="bD7-vy-Y4l"/>
+                            <constraint firstItem="efY-oJ-4k9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="46" id="chU-Za-AdQ"/>
+                            <constraint firstItem="z0Q-2a-hmY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="cuG-Ux-RHO"/>
+                            <constraint firstItem="shX-ar-WQl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="eav-3h-8LG"/>
+                            <constraint firstItem="C2d-DI-zMB" firstAttribute="leading" secondItem="z0Q-2a-hmY" secondAttribute="trailing" constant="8" id="fWq-DS-HaB"/>
+                            <constraint firstItem="ZKr-Mb-0wC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="hEd-zf-nMn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="STe-vL-UWI" secondAttribute="trailing" constant="16" id="k8X-5u-Cgr"/>
+                            <constraint firstItem="7KT-h3-tjD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="m5l-ve-r8E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="shX-ar-WQl" secondAttribute="trailing" constant="16" id="mjQ-rB-ViQ"/>
+                            <constraint firstItem="z0Q-2a-hmY" firstAttribute="top" secondItem="ZKr-Mb-0wC" secondAttribute="bottom" constant="20" id="yjw-5L-7BH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="efY-oJ-4k9" id="Dar-Iv-SWA"/>
+                        <outlet property="label2" destination="C2d-DI-zMB" id="LGV-Dr-aMu"/>
+                        <outlet property="label3" destination="shX-ar-WQl" id="2Rw-nc-pJX"/>
+                        <outlet property="label4" destination="BZX-oZ-NjQ" id="WiG-xC-gYn"/>
+                        <outlet property="label5" destination="STe-vL-UWI" id="KQU-Ec-POC"/>
+                        <outlet property="label6" destination="7KT-h3-tjD" id="jfJ-7e-4uY"/>
+                        <outlet property="text1" destination="ZKr-Mb-0wC" id="bTt-9m-GH6"/>
+                        <outlet property="text2" destination="z0Q-2a-hmY" id="4ju-gz-c1b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
